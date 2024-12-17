@@ -1,0 +1,1695 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Altschul1990}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a928ba6f6f5a34dc80aebe0b359e4d77}{%
+           family={Altschul},
+           familyi={A\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8d4b8c1a32fb2a06cffe370873f78426}{%
+           family={Gish},
+           familyi={G\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1e3808a53db93812138e32654ba4a07b}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b3f00875ce9451d2357b22dd3963f24b}{%
+           family={Myers},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=cb449305164a9f7f47c04b2cf2796376}{%
+           family={Lipman},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a634ecdaf687843e34c8157e7a2f362}
+      \strng{fullhash}{1057276690a6189cf0d8063f1a25bce2}
+      \strng{bibnamehash}{1057276690a6189cf0d8063f1a25bce2}
+      \strng{authorbibnamehash}{1057276690a6189cf0d8063f1a25bce2}
+      \strng{authornamehash}{0a634ecdaf687843e34c8157e7a2f362}
+      \strng{authorfullhash}{1057276690a6189cf0d8063f1a25bce2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{number}{3}
+      \field{title}{Basic Local Alignment Search Tool}
+      \field{volume}{215}
+      \field{year}{1990}
+      \field{pages}{403\bibrangedash 410}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S0022-2836(05)80360-2
+      \endverb
+    \endentry
+    \entry{Ashkenazy2016}{article}{}
+      \name{author}{7}{}{%
+        {{hash=d7e4a70ae762a20004388350b977047e}{%
+           family={Ashkenazy},
+           familyi={A\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e5b3ee3a7021ea4d723f0b5157946759}{%
+           family={Abadi},
+           familyi={A\bibinitperiod},
+           given={Shlomit},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a8d9e73a5881e62885af1ba7c694b586}{%
+           family={Martz},
+           familyi={M\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=21f01c647182c2e6bd57c67add5ce67c}{%
+           family={Chay},
+           familyi={C\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=8996f195d297d99cf2dea1af3a4aff24}{%
+           family={Mayrose},
+           familyi={M\bibinitperiod},
+           given={Itay},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b89bfdda780eda43f195963e8e2f8143}{%
+           family={Pupko},
+           familyi={P\bibinitperiod},
+           given={Tal},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f89ba63c2fc866ec2c6277fefedfcb44}{%
+           family={{Ben-Tal}},
+           familyi={B\bibinitperiod},
+           given={Nir},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{75cb82fcafe5a77e29d37b15571e9fa8}
+      \strng{fullhash}{50818572baca572928b17aa832b7d85e}
+      \strng{bibnamehash}{50818572baca572928b17aa832b7d85e}
+      \strng{authorbibnamehash}{50818572baca572928b17aa832b7d85e}
+      \strng{authornamehash}{75cb82fcafe5a77e29d37b15571e9fa8}
+      \strng{authorfullhash}{50818572baca572928b17aa832b7d85e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{W1}
+      \field{title}{{{ConSurf}} 2016: An Improved Methodology to Estimate and Visualize Evolutionary Conservation in Macromolecules}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{pages}{W344\bibrangedash W350}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkw408
+      \endverb
+    \endentry
+    \entry{Callaway2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d46e8043997c8570d0c31262787fa32}{%
+           family={Callaway},
+           familyi={C\bibinitperiod},
+           given={Ewen},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{fullhash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{bibnamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authorbibnamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authornamehash}{1d46e8043997c8570d0c31262787fa32}
+      \strng{authorfullhash}{1d46e8043997c8570d0c31262787fa32}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7794}
+      \field{title}{Revolutionizing Structural Biology with Cryo-{{EM}}}
+      \field{volume}{578}
+      \field{year}{2020}
+      \field{pages}{201\bibrangedash 202}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/d41586-020-00341-9
+      \endverb
+    \endentry
+    \entry{Chothia1986}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e7519839a5afb3dc61bb297b7fb4f313}{%
+           family={Chothia},
+           familyi={C\bibinitperiod},
+           given={Cyrus},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e4aeeeaf345e913054ee98de6c5b9a1d}{%
+           family={Lesk},
+           familyi={L\bibinitperiod},
+           given={Arthur\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \strng{fullhash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \strng{bibnamehash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \strng{authorbibnamehash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \strng{authornamehash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \strng{authorfullhash}{bf2453cde61d7abb05bc85f58973ecd1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EMBO Journal}
+      \field{number}{4}
+      \field{title}{The Relation between the Divergence of Sequence and Structure in Proteins}
+      \field{volume}{5}
+      \field{year}{1986}
+      \field{pages}{823\bibrangedash 826}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1002/j.1460-2075.1986.tb04288.x
+      \endverb
+    \endentry
+    \entry{Doolittle1999}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9d56ac5acb35a78ee04eb33fc30fd2f7}{%
+           family={Doolittle},
+           familyi={D\bibinitperiod},
+           given={W.\bibnamedelimi Ford},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \strng{fullhash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \strng{bibnamehash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \strng{authorbibnamehash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \strng{authornamehash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \strng{authorfullhash}{9d56ac5acb35a78ee04eb33fc30fd2f7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5423}
+      \field{title}{Phylogenetic Classification and the Universal Tree}
+      \field{volume}{284}
+      \field{year}{1999}
+      \field{pages}{2124\bibrangedash 2129}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.284.5423.2124
+      \endverb
+    \endentry
+    \entry{Felsenstein1985}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a9a7aeb8d3c34e3da316b87101984cda}{%
+           family={Felsenstein},
+           familyi={F\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{fullhash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{bibnamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authorbibnamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authornamehash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \strng{authorfullhash}{a9a7aeb8d3c34e3da316b87101984cda}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evolution; international journal of organic evolution}
+      \field{number}{4}
+      \field{title}{Confidence Limits on Phylogenies: An Approach Using the Bootstrap}
+      \field{volume}{39}
+      \field{year}{1985}
+      \field{pages}{783\bibrangedash 791}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.2307/2408678
+      \endverb
+    \endentry
+    \entry{Fernandez2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=946ff88a7e1023a29af3ac1da688a867}{%
+           family={Fernandez},
+           familyi={F\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9cf9e6ae144839a99d679890e078a69d}{%
+           family={Keskin},
+           familyi={K\bibinitperiod},
+           given={Ozlem},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6b2ae4d26e25635961981e774d4aa566}{%
+           family={Gursoy},
+           familyi={G\bibinitperiod},
+           given={Attila},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ef329440723f8db9d962eb2a48e3c86}
+      \strng{fullhash}{5ef329440723f8db9d962eb2a48e3c86}
+      \strng{bibnamehash}{5ef329440723f8db9d962eb2a48e3c86}
+      \strng{authorbibnamehash}{5ef329440723f8db9d962eb2a48e3c86}
+      \strng{authornamehash}{5ef329440723f8db9d962eb2a48e3c86}
+      \strng{authorfullhash}{5ef329440723f8db9d962eb2a48e3c86}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Opinion in Structural Biology}
+      \field{title}{Engineering Antibody Therapeutics}
+      \field{volume}{52}
+      \field{year}{2018}
+      \field{pages}{15\bibrangedash 22}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.sbi.2018.07.003
+      \endverb
+    \endentry
+    \entry{georgelVirusHostInteractions2010}{article}{}
+      \name{author}{7}{}{%
+        {{hash=ef70a69a38633c4a3724c60c0fc2c757}{%
+           family={Georgel},
+           familyi={G\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c191bae5ac638223cfa8bb0e74a0b37b}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=91d00a2909567c1f2df730274a547dad}{%
+           family={Zeisel},
+           familyi={Z\bibinitperiod},
+           given={Mirjam\bibnamedelima B.},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=30046ea0385e86b90c6f4ac4332f17e6}{%
+           family={{Stoll-Keller}},
+           familyi={S\bibinitperiod},
+           given={Françoise},
+           giveni={F\bibinitperiod}}}%
+        {{hash=079618b937b9cb092a20cb19ff0694ae}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3acdd42b621e223525094a79471c3990}{%
+           family={Bahram},
+           familyi={B\bibinitperiod},
+           given={Seiamak},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fbcd5dfb5d8cd8320abacb84e20d3419}{%
+           family={Baumert},
+           familyi={B\bibinitperiod},
+           given={Thomas\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{21b1b2f4cffd4bfee64c8cc88057d41f}
+      \strng{fullhash}{544a92748528807cbf75a91849556f28}
+      \strng{bibnamehash}{544a92748528807cbf75a91849556f28}
+      \strng{authorbibnamehash}{544a92748528807cbf75a91849556f28}
+      \strng{authornamehash}{21b1b2f4cffd4bfee64c8cc88057d41f}
+      \strng{authorfullhash}{544a92748528807cbf75a91849556f28}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1471-4914, 1471-499X}
+      \field{journaltitle}{Trends in Molecular Medicine}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Virus--Host Interactions in Hepatitis {{C}} Virus Infection}
+      \field{title}{Virus--Host Interactions in Hepatitis {{C}} Virus Infection: Implications for Molecular Pathogenesis and Antiviral Strategies}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{277\bibrangedash 286}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.molmed.2010.04.003
+      \endverb
+    \endentry
+    \entry{Heinz2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=21e0f7ea75ace018bf7e166f34e604a1}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={Franz\bibnamedelima X.},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=4fbc02bcbed3c5ff514a3a96921c64b5}{%
+           family={Stiasny},
+           familyi={S\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{37c496094462748766a2f8e1a28b1349}
+      \strng{fullhash}{37c496094462748766a2f8e1a28b1349}
+      \strng{bibnamehash}{37c496094462748766a2f8e1a28b1349}
+      \strng{authorbibnamehash}{37c496094462748766a2f8e1a28b1349}
+      \strng{authornamehash}{37c496094462748766a2f8e1a28b1349}
+      \strng{authorfullhash}{37c496094462748766a2f8e1a28b1349}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Clinical Virology}
+      \field{number}{4}
+      \field{title}{Flaviviruses and Their Antigenic Structure}
+      \field{volume}{55}
+      \field{year}{2012}
+      \field{pages}{289\bibrangedash 295}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.jcv.2012.08.024
+      \endverb
+    \endentry
+    \entry{Jumper2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=10a7a824028a842a17d901b4ec09993d}{%
+           family={Jumper},
+           familyi={J\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=173072a12c87679d6e0aeed7dbfb2abc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4295e4094c426f01903ac60155866130}{%
+           family={Pritzel},
+           familyi={P\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={{al.}},
+           familyi={a\bibinitperiod},
+           given={et},
+           giveni={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{fullhash}{60e5a290d96823aafa2ac3493d5db865}
+      \strng{bibnamehash}{60e5a290d96823aafa2ac3493d5db865}
+      \strng{authorbibnamehash}{60e5a290d96823aafa2ac3493d5db865}
+      \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
+      \strng{authorfullhash}{60e5a290d96823aafa2ac3493d5db865}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7873}
+      \field{title}{Highly Accurate Protein Structure Prediction with {{AlphaFold}}}
+      \field{volume}{596}
+      \field{year}{2021}
+      \field{pages}{583\bibrangedash 589}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41586-021-03819-2
+      \endverb
+    \endentry
+    \entry{Katoh2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e15a71da898925c9e569917155439a71}{%
+           family={Katoh},
+           familyi={K\bibinitperiod},
+           given={Kazutaka},
+           giveni={K\bibinitperiod}}}%
+        {{hash=79d103fd7a5297794f43daa9d4e978b5}{%
+           family={Standley},
+           familyi={S\bibinitperiod},
+           given={Daron\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \strng{fullhash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \strng{bibnamehash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \strng{authorbibnamehash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \strng{authornamehash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \strng{authorfullhash}{e9d4aa85a2dfc2a1f68ee7bf8628a81d}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{number}{4}
+      \field{title}{{{MAFFT}} Multiple Sequence Alignment Software Version 7: {{Improvements}} in Performance and Usability}
+      \field{volume}{30}
+      \field{year}{2013}
+      \field{pages}{772\bibrangedash 780}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/molbev/mst010
+      \endverb
+    \endentry
+    \entry{Kielian2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d2203be56a1867012c427a3ded265a75}{%
+           family={Kielian},
+           familyi={K\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6363e5eb892071152b9a2115bd832195}{%
+           family={Rey},
+           familyi={R\bibinitperiod},
+           given={Félix\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f8fc9755d0f7bfda09405133a42302c4}
+      \strng{fullhash}{f8fc9755d0f7bfda09405133a42302c4}
+      \strng{bibnamehash}{f8fc9755d0f7bfda09405133a42302c4}
+      \strng{authorbibnamehash}{f8fc9755d0f7bfda09405133a42302c4}
+      \strng{authornamehash}{f8fc9755d0f7bfda09405133a42302c4}
+      \strng{authorfullhash}{f8fc9755d0f7bfda09405133a42302c4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{number}{1}
+      \field{title}{Virus Membrane-Fusion Proteins: More than One Way to Make a Hairpin}
+      \field{volume}{4}
+      \field{year}{2006}
+      \field{pages}{67\bibrangedash 76}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/nrmicro1326
+      \endverb
+    \endentry
+    \entry{Koonin1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bca4c562f895947d90e1e03fe873e750}{%
+           family={Koonin},
+           familyi={K\bibinitperiod},
+           given={Eugene\bibnamedelima V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bca4c562f895947d90e1e03fe873e750}
+      \strng{fullhash}{bca4c562f895947d90e1e03fe873e750}
+      \strng{bibnamehash}{bca4c562f895947d90e1e03fe873e750}
+      \strng{authorbibnamehash}{bca4c562f895947d90e1e03fe873e750}
+      \strng{authornamehash}{bca4c562f895947d90e1e03fe873e750}
+      \strng{authorfullhash}{bca4c562f895947d90e1e03fe873e750}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of General Virology}
+      \field{number}{9}
+      \field{title}{The Phylogeny of {{RNA-dependent RNA}} Polymerases of Positive-Strand {{RNA}} Viruses}
+      \field{volume}{72}
+      \field{year}{1991}
+      \field{pages}{2197\bibrangedash 2206}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1099/0022-1317-72-9-2197
+      \endverb
+    \endentry
+    \entry{kuhnStructureDengueVirus2002}{article}{}
+      \name{author}{12}{}{%
+        {{hash=a85fac317c238cb449961e00872622ac}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=25bbf4047d900f3760c65b01ee899dba}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3fd5f575da6c4e4329367799f5ba3d72}{%
+           family={Rossmann},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=0580d22e1550b511de081dae94877f8b}{%
+           family={Pletnev},
+           familyi={P\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=ad25783e2556d5fa6bce8430503d4027}{%
+           family={Corver},
+           familyi={C\bibinitperiod},
+           given={Jeroen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=623f8443ae9e3cbe1a79bf1b7d844858}{%
+           family={Lenches},
+           familyi={L\bibinitperiod},
+           given={Edith},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a076b5248c6129eea901e7820ce1e89d}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Christopher\bibnamedelima T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=d7c1560d4dc48334cfd53ce40dc6aedc}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Suchetana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d300d474d0d1cc299f8f84a826682ecf}{%
+           family={Chipman},
+           familyi={C\bibinitperiod},
+           given={Paul\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=821bc0c7a88d4ec8f879b1873268ada6}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Ellen\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=371b6c3168638a1fb9d7d2129e617832}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Timothy\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f8865f40b48e8d553bd3b01e75fff265}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2f007bca98d7db6778530dfb03214b5}
+      \strng{fullhash}{39a2cfc4983803fb7c28e3378cd09fde}
+      \strng{bibnamehash}{39a2cfc4983803fb7c28e3378cd09fde}
+      \strng{authorbibnamehash}{39a2cfc4983803fb7c28e3378cd09fde}
+      \strng{authornamehash}{a2f007bca98d7db6778530dfb03214b5}
+      \strng{authorfullhash}{39a2cfc4983803fb7c28e3378cd09fde}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The first structure of a flavivirus has been determined by using a combination of cryoelectron microscopy and fitting of the known structure of glycoprotein E into the electron density map. The virus core, within a lipid bilayer, has a less-ordered structure than the external, icosahedral scaffold of 90 glycoprotein E dimers. The three E monomers per icosahedral asymmetric unit do not have quasiequivalent symmetric environments. Difference maps indicate the location of the small membrane protein M relative to the overlaying scaffold of E dimers. The structure suggests that flaviviruses, and by analogy also alphaviruses, employ a fusion mechanism in which the distal beta barrels of domain II of the glycoprotein E are inserted into the cellular membrane.}
+      \field{issn}{0092-8674}
+      \field{journaltitle}{Cell}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{5}
+      \field{shorttitle}{Structure of Dengue Virus}
+      \field{title}{Structure of Dengue Virus: Implications for Flavivirus Organization, Maturation, and Fusion}
+      \field{volume}{108}
+      \field{year}{2002}
+      \field{pages}{717\bibrangedash 725}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/s0092-8674(02)00660-8
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/REGZA682/Kuhn et al. - 2002 - Structure of dengue virus implications for flaviv.pdf
+      \endverb
+      \keyw{Capsid,Cryoelectron Microscopy,Dengue Virus,Humans,Hydrogen-Ion Concentration,Image Processing Computer-Assisted,Lipid Bilayers,Membrane Fusion,Models Molecular,Viral Envelope Proteins}
+    \endentry
+    \entry{Kuno2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=88ec75de8c0d5db93210c44cf9d98fe3}{%
+           family={Kuno},
+           familyi={K\bibinitperiod},
+           given={Goro},
+           giveni={G\bibinitperiod}}}%
+        {{hash=af120304fd5ebb814db95bcbf7089962}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Gwong-Jen\bibnamedelima J.},
+           giveni={G\bibinithyphendelim J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{90fe6a613c006bf5b3ff27fe06569643}
+      \strng{fullhash}{90fe6a613c006bf5b3ff27fe06569643}
+      \strng{bibnamehash}{90fe6a613c006bf5b3ff27fe06569643}
+      \strng{authorbibnamehash}{90fe6a613c006bf5b3ff27fe06569643}
+      \strng{authornamehash}{90fe6a613c006bf5b3ff27fe06569643}
+      \strng{authorfullhash}{90fe6a613c006bf5b3ff27fe06569643}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Virology}
+      \field{number}{4}
+      \field{title}{Full-Length Sequencing and Genomic Characterization of {{Bagaza}}, {{Kedougou}}, and {{Zika}} Viruses}
+      \field{volume}{152}
+      \field{year}{2007}
+      \field{pages}{687\bibrangedash 696}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00705-006-0903-z
+      \endverb
+    \endentry
+    \entry{Lavie2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3b64df7aefb9f6937ad20ebbec211a18}{%
+           family={Lavie},
+           familyi={L\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fa0e7f43f907449019acc89499872dd9}{%
+           family={Dubuisson},
+           familyi={D\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{98d5e76da1754b2d580619f4a8b66726}
+      \strng{fullhash}{98d5e76da1754b2d580619f4a8b66726}
+      \strng{bibnamehash}{98d5e76da1754b2d580619f4a8b66726}
+      \strng{authorbibnamehash}{98d5e76da1754b2d580619f4a8b66726}
+      \strng{authornamehash}{98d5e76da1754b2d580619f4a8b66726}
+      \strng{authorfullhash}{98d5e76da1754b2d580619f4a8b66726}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biochimie}
+      \field{title}{Interplay between Hepatitis {{C}} Virus and Lipid Metabolism during Virus Entry and Assembly}
+      \field{volume}{141}
+      \field{year}{2017}
+      \field{pages}{62\bibrangedash 69}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.biochi.2017.06.013
+      \endverb
+    \endentry
+    \entry{linEvolutionaryscalePredictionAtomiclevel2023}{article}{}
+      \name{author}{15}{}{%
+        {{hash=c40352c194e60a3ef458ee7e8685afb5}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zeming},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=15ffaf478ac80f96892efadcc2a135a6}{%
+           family={Akin},
+           familyi={A\bibinitperiod},
+           given={Halil},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0f3a8501ead10f233eccda0b53bf0bd1}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Roshan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2218b6e69c35a7ab5d3c0ebfbe634d92}{%
+           family={Hie},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=47065c85b39cd5a2d076a7acf7f6280d}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Zhongkai},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=883441545fe75217474c1c94d7936838}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Wenting},
+           giveni={W\bibinitperiod}}}%
+        {{hash=51a9fc39f16c7c9c6d331de0bbdaf57d}{%
+           family={Smetanin},
+           familyi={S\bibinitperiod},
+           given={Nikita},
+           giveni={N\bibinitperiod}}}%
+        {{hash=46be631e87cb978c860e4b0fa1d4887b}{%
+           family={Verkuil},
+           familyi={V\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f457c482acb006e884966be55f6e745a}{%
+           family={Kabeli},
+           familyi={K\bibinitperiod},
+           given={Ori},
+           giveni={O\bibinitperiod}}}%
+        {{hash=1db73894e13374e91b04144d7376349e}{%
+           family={Shmueli},
+           familyi={S\bibinitperiod},
+           given={Yaniv},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3304e6340f2d19318627916c67ba89e1}{%
+           family={{dos Santos Costa}},
+           familyi={d\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3574995111995617f1b94c9b2646d290}{%
+           family={{Fazel-Zarandi}},
+           familyi={F\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=21e17f70ffb714b5a29005c2a54cec93}{%
+           family={Sercu},
+           familyi={S\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2499e63435eed12a242cf416ef474e2a}{%
+           family={Candido},
+           familyi={C\bibinitperiod},
+           given={Salvatore},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77c951217a087dd3f5981a0a79a87222}{%
+           family={Rives},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{e5658d7879c7784982486a4a7cba055b}
+      \strng{fullhash}{79a666f26f637ac0f72ac99272724048}
+      \strng{bibnamehash}{79a666f26f637ac0f72ac99272724048}
+      \strng{authorbibnamehash}{79a666f26f637ac0f72ac99272724048}
+      \strng{authornamehash}{e5658d7879c7784982486a4a7cba055b}
+      \strng{authorfullhash}{79a666f26f637ac0f72ac99272724048}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent advances in machine learning have leveraged evolutionary information in multiple sequence alignments to predict protein structure. We demonstrate direct inference of full atomic-level protein structure from primary sequence using a large language model. As language models of protein sequences are scaled up to 15 billion parameters, an atomic-resolution picture of protein structure emerges in the learned representations. This results in an order-of-magnitude acceleration of high-resolution structure prediction, which enables large-scale structural characterization of metagenomic proteins. We apply this capability to construct the ESM Metagenomic Atlas by predicting structures for {$>$}617 million metagenomic protein sequences, including {$>$}225 million that are predicted with high confidence, which gives a view into the vast breadth and diversity of natural proteins.}
+      \field{journaltitle}{Science}
+      \field{month}{3}
+      \field{number}{6637}
+      \field{title}{Evolutionary-Scale Prediction of Atomic-Level Protein Structure with a Language Model}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{379}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1123\bibrangedash 1130}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.ade2574
+      \endverb
+    \endentry
+    \entry{Mackenzie2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b4dd25a4130a42edc5a0a357d356d579}{%
+           family={Mackenzie},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=e895c803bd894a0ca99ea953569d5322}{%
+           family={Gubler},
+           familyi={G\bibinitperiod},
+           given={Duane\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=93d1ba6d2c06d5cb5475e0dc1bb5e574}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Lyle\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{782037568019644ab4c062153c7f0b3d}
+      \strng{fullhash}{782037568019644ab4c062153c7f0b3d}
+      \strng{bibnamehash}{782037568019644ab4c062153c7f0b3d}
+      \strng{authorbibnamehash}{782037568019644ab4c062153c7f0b3d}
+      \strng{authornamehash}{782037568019644ab4c062153c7f0b3d}
+      \strng{authorfullhash}{782037568019644ab4c062153c7f0b3d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Medicine}
+      \field{number}{12 Suppl}
+      \field{title}{Emerging Flaviviruses: The Spread and Resurgence of {{Japanese}} Encephalitis, {{West Nile}} and Dengue Viruses}
+      \field{volume}{10}
+      \field{year}{2004}
+      \field{pages}{S98\bibrangedash S109}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1038/nm1144
+      \endverb
+    \endentry
+    \entry{mifsudMappingGlycoproteinStructure2024}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a665bb1c3af06e025ebf870e6ff8450e}{%
+           family={Mifsud},
+           familyi={M\bibinitperiod},
+           given={Jonathon\bibnamedelimb C.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=b41ba50968032d3aebd229c10372b74d}{%
+           family={Lytras},
+           familyi={L\bibinitperiod},
+           given={Spyros},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8ce4bf3d47028c24ba169ae06e53607a}{%
+           family={Oliver},
+           familyi={O\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d993f1a032730213bb91f54620b10b23}{%
+           family={Toon},
+           familyi={T\bibinitperiod},
+           given={Kamilla},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a1f0ea315a9f105613fd79781c503d1e}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Vincenzo\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a0f7f4c5886749e5af7d947101259d9e}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=87fe409579f563fa8fc7a1c5999ac9f4}{%
+           family={Grove},
+           familyi={G\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{fac9e95d2f8f55c78461405674ad7365}
+      \strng{fullhash}{8e8166bf5b60c14ea0f8e42803cef972}
+      \strng{bibnamehash}{8e8166bf5b60c14ea0f8e42803cef972}
+      \strng{authorbibnamehash}{8e8166bf5b60c14ea0f8e42803cef972}
+      \strng{authornamehash}{fac9e95d2f8f55c78461405674ad7365}
+      \strng{authorfullhash}{8e8166bf5b60c14ea0f8e42803cef972}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Viral glycoproteins drive membrane fusion in enveloped viruses and determine host range, tissue tropism and pathogenesis1. Despite their importance, there is a fragmentary understanding of glycoproteins within the Flaviviridae2, a large virus family that include pathogens such as hepatitis C, dengue and Zika viruses, and numerous other human, animal and emergent viruses. For many flaviviruses the glycoproteins have not yet been identified, for others, such as the hepaciviruses, the molecular mechanisms of membrane fusion remain uncharacterized3. Here we combine phylogenetic analyses with protein structure prediction to survey glycoproteins across the entire Flaviviridae. We find class II fusion systems, homologous to the Orthoflavivirus E glycoprotein in most species, including highly divergent jingmenviruses and large genome flaviviruses. However, the E1E2 glycoproteins of the hepaciviruses, pegiviruses and pestiviruses are structurally distinct, may represent a novel class of fusion mechanism, and are strictly associated with infection of vertebrate hosts. By mapping glycoprotein distribution onto the underlying phylogeny, we reveal a complex evolutionary history marked by the capture of bacterial genes and potentially inter-genus recombination. These insights, made possible through protein structure prediction, refine our understanding of viral fusion mechanisms and reveal the events that have shaped the diverse virology and ecology of the Flaviviridae.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{8030}
+      \field{title}{Mapping Glycoprotein Structure Reveals {{Flaviviridae}} Evolutionary History}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{633}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{695\bibrangedash 703}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41586-024-07899-8
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/DZ5RLMC2/Mifsud et al. - 2024 - Mapping glycoprotein structure reveals Flavivirida.pdf
+      \endverb
+      \keyw{Protein structure predictions,Viral evolution,Viral membrane fusion}
+    \endentry
+    \entry{Mirdita2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e49a65b8691ca0ca2d865d0d68698e2f}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e51a34288860233b0844f4617a90b3c1}{%
+           family={Schütze},
+           familyi={S\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=620fcdb17bf9a189c7bdbdb93d28edcf}{%
+           family={Moriwaki},
+           familyi={M\bibinitperiod},
+           given={Yoshitaka},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={{al.}},
+           familyi={a\bibinitperiod},
+           given={et},
+           giveni={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{846141961c3a76e240e62ea4539609e7}
+      \strng{fullhash}{854b87a1376c2071157c3e5dcf1b1aff}
+      \strng{bibnamehash}{854b87a1376c2071157c3e5dcf1b1aff}
+      \strng{authorbibnamehash}{854b87a1376c2071157c3e5dcf1b1aff}
+      \strng{authornamehash}{846141961c3a76e240e62ea4539609e7}
+      \strng{authorfullhash}{854b87a1376c2071157c3e5dcf1b1aff}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{number}{6}
+      \field{title}{{{ColabFold}}: Making Protein Folding Accessible to All}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{pages}{679\bibrangedash 682}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41592-022-01488-1
+      \endverb
+    \endentry
+    \entry{Modis2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=df91e889dcb529b3de196605a86b3e21}{%
+           family={Modis},
+           familyi={M\bibinitperiod},
+           given={Yorgo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a07b22a303b2548de16bda2668e2d025}{%
+           family={Ogata},
+           familyi={O\bibinitperiod},
+           given={Sadie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eb12747c9987e00648d801ec4cf08c79}{%
+           family={Clements},
+           familyi={C\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=abbc4e0ab0c5811a7d40d2b173aba446}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0afd10f5519ad68e4689d3174eb376e}
+      \strng{fullhash}{46dfe414bd2ee1f0a3abcb60aa03fbe4}
+      \strng{bibnamehash}{46dfe414bd2ee1f0a3abcb60aa03fbe4}
+      \strng{authorbibnamehash}{46dfe414bd2ee1f0a3abcb60aa03fbe4}
+      \strng{authornamehash}{c0afd10f5519ad68e4689d3174eb376e}
+      \strng{authorfullhash}{46dfe414bd2ee1f0a3abcb60aa03fbe4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6972}
+      \field{title}{Structure of the Dengue Virus Envelope Protein after Membrane Fusion}
+      \field{volume}{427}
+      \field{year}{2004}
+      \field{pages}{313\bibrangedash 319}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/nature02165
+      \endverb
+    \endentry
+    \entry{Mukhopadhyay2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d7c1560d4dc48334cfd53ce40dc6aedc}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Suchetana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a85fac317c238cb449961e00872622ac}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Richard\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3fd5f575da6c4e4329367799f5ba3d72}{%
+           family={Rossmann},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{63100baa2fc82359ebc57e607017016b}
+      \strng{fullhash}{63100baa2fc82359ebc57e607017016b}
+      \strng{bibnamehash}{63100baa2fc82359ebc57e607017016b}
+      \strng{authorbibnamehash}{63100baa2fc82359ebc57e607017016b}
+      \strng{authornamehash}{63100baa2fc82359ebc57e607017016b}
+      \strng{authorfullhash}{63100baa2fc82359ebc57e607017016b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Microbiology}
+      \field{number}{1}
+      \field{title}{A Structural Perspective of the Flavivirus Life Cycle}
+      \field{volume}{3}
+      \field{year}{2005}
+      \field{pages}{13\bibrangedash 22}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/nrmicro1067
+      \endverb
+    \endentry
+    \entry{Nguyen2015}{article}{}
+      \name{author}{4}{}{%
+        {{hash=f4de9ebe04db141c4d38ca5112487294}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Lam-Tung},
+           giveni={L\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=ff3f69e987b0e888d610f4c0dfc0f177}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Heiko\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=07f77d53594cdfc8f0f4509ad69dab0b}{%
+           family={{von Haeseler}},
+           familyi={v\bibinitperiod},
+           given={Arndt},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3331b2b694c3c86ff90fcece74fcfa30}{%
+           family={Minh},
+           familyi={M\bibinitperiod},
+           given={Bui\bibnamedelima Quang},
+           giveni={B\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ba8055538e8e7bc4766aa622eed0a19}
+      \strng{fullhash}{e53912e36fc67f4c1076793e849e8c1b}
+      \strng{bibnamehash}{e53912e36fc67f4c1076793e849e8c1b}
+      \strng{authorbibnamehash}{e53912e36fc67f4c1076793e849e8c1b}
+      \strng{authornamehash}{8ba8055538e8e7bc4766aa622eed0a19}
+      \strng{authorfullhash}{e53912e36fc67f4c1076793e849e8c1b}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{number}{1}
+      \field{title}{{{IQ-TREE}}: A Fast and Effective Stochastic Algorithm for Estimating Maximum-Likelihood Phylogenies}
+      \field{volume}{32}
+      \field{year}{2015}
+      \field{pages}{268\bibrangedash 274}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1093/molbev/msu300
+      \endverb
+    \endentry
+    \entry{peninStructureFunctionMembrane2004}{article}{}
+      \name{author}{9}{}{%
+        {{hash=663a61831a59d119199897018c9a0898}{%
+           family={Penin},
+           familyi={P\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=dcb6a575878179c61259df9113c86a78}{%
+           family={Brass},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+        {{hash=662d33059372f7a798d322f32d1d99eb}{%
+           family={Appel},
+           familyi={A\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1b9dad7c4cf1d703a3d14ed50fdf635c}{%
+           family={Ramboarina},
+           familyi={R\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d5d7d7b8a5728b768d655616aa155b1c}{%
+           family={Montserret},
+           familyi={M\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=afa0208102ea0143e62d259f80da3389}{%
+           family={Ficheux},
+           familyi={F\bibinitperiod},
+           given={Damien},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3dd9e99a2c05e75b770855506d654a1a}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Hubert\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=beffa17f287409e8dc2fd5efb7a4594a}{%
+           family={Bartenschlager},
+           familyi={B\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c32e05e9fdc390e7a8f1922a01234abb}{%
+           family={Moradpour},
+           familyi={M\bibinitperiod},
+           given={Darius},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{480b33a9d38120ab5fe8fd606e38d28a}
+      \strng{fullhash}{44b27498ae66f5a44aa2f836b388e352}
+      \strng{bibnamehash}{44b27498ae66f5a44aa2f836b388e352}
+      \strng{authorbibnamehash}{44b27498ae66f5a44aa2f836b388e352}
+      \strng{authornamehash}{480b33a9d38120ab5fe8fd606e38d28a}
+      \strng{authorfullhash}{44b27498ae66f5a44aa2f836b388e352}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Hepatitis C virus (HCV) nonstructural protein 5A (NS5A) is a membrane-associated, essential component of the viral replication complex. Here, we report the three-dimensional structure of the membrane anchor domain of NS5A as determined by NMR spectroscopy. An alpha-helix extending from amino acid residue 5 to 25 was observed in the presence of different membrane mimetic media. This helix exhibited a hydrophobic, Trprich side embedded in detergent micelles, while the polar, charged side was exposed to the solvent. Thus, the NS5A membrane anchor domain forms an in-plane amphipathic alpha-helix embedded in the cytosolic leaflet of the membrane bilayer. Interestingly, mutations affecting the positioning of fully conserved residues located at the cytosolic surface of the helix impaired HCV RNA replication without interfering with the membrane association of NS5A. In conclusion, the NS5A membrane anchor domain constitutes a unique platform that is likely involved in specific interactions essential for the assembly of the HCV replication complex and that may represent a novel target for antiviral intervention.}
+      \field{issn}{0021-9258}
+      \field{journaltitle}{The Journal of Biological Chemistry}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{39}
+      \field{title}{Structure and Function of the Membrane Anchor Domain of Hepatitis {{C}} Virus Nonstructural Protein {{5A}}}
+      \field{volume}{279}
+      \field{year}{2004}
+      \field{pages}{40835\bibrangedash 40843}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1074/jbc.M404761200
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/RUS5WVT3/Penin et al. - 2004 - Structure and function of the membrane anchor doma.pdf
+      \endverb
+      \keyw{Amino Acid Sequence,Antibodies Monoclonal,Cell Line Tumor,Cell Membrane,Cytosol,Humans,Lipid Bilayers,Magnetic Resonance Spectroscopy,Micelles,Microscopy Confocal,Models Molecular,Molecular Sequence Data,Mutation,Peptides,Plasmids,Protein Conformation,Protein Structure Secondary,Protein Structure Tertiary,Transcription Genetic,Transfection,Viral Nonstructural Proteins}
+    \endentry
+    \entry{Rey1995}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6363e5eb892071152b9a2115bd832195}{%
+           family={Rey},
+           familyi={R\bibinitperiod},
+           given={Félix\bibnamedelima A.},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=21e0f7ea75ace018bf7e166f34e604a1}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={Franz\bibnamedelima X.},
+           giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=86d3a3401d85aa8591f1c20b97aa7669}{%
+           family={Mandl},
+           familyi={M\bibinitperiod},
+           given={Christiane},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e0e13ead12020bc2c44684c321615ecc}{%
+           family={Kunz},
+           familyi={K\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=abbc4e0ab0c5811a7d40d2b173aba446}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a14bec3b750eb4875dc2d3d51dffde4d}
+      \strng{fullhash}{24099cc7a0c2d0600146c6edbe9ac376}
+      \strng{bibnamehash}{24099cc7a0c2d0600146c6edbe9ac376}
+      \strng{authorbibnamehash}{24099cc7a0c2d0600146c6edbe9ac376}
+      \strng{authornamehash}{a14bec3b750eb4875dc2d3d51dffde4d}
+      \strng{authorfullhash}{24099cc7a0c2d0600146c6edbe9ac376}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6529}
+      \field{title}{The Envelope Glycoprotein from Tick-Borne Encephalitis Virus at 2 {{{Å}}} Resolution}
+      \field{volume}{375}
+      \field{year}{1995}
+      \field{pages}{291\bibrangedash 298}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/375291a0
+      \endverb
+    \endentry
+    \entry{Senior2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=211e54ca76df5d8c1de6957d48792545}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=173072a12c87679d6e0aeed7dbfb2abc}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=10a7a824028a842a17d901b4ec09993d}{%
+           family={Jumper},
+           familyi={J\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={{al.}},
+           familyi={a\bibinitperiod},
+           given={et},
+           giveni={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8163a529b375022300c493a8e98c724}
+      \strng{fullhash}{a0dc285748a255ed796e41f1821e4603}
+      \strng{bibnamehash}{a0dc285748a255ed796e41f1821e4603}
+      \strng{authorbibnamehash}{a0dc285748a255ed796e41f1821e4603}
+      \strng{authornamehash}{a8163a529b375022300c493a8e98c724}
+      \strng{authorfullhash}{a0dc285748a255ed796e41f1821e4603}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7792}
+      \field{title}{Improved Protein Structure Prediction Using Potentials from Deep Learning}
+      \field{volume}{577}
+      \field{year}{2020}
+      \field{pages}{706\bibrangedash 710}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1923-7
+      \endverb
+    \endentry
+    \entry{shangCrystalStructureCapsid2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ed2d532e9477613f5821076b9e631019}{%
+           family={Shang},
+           familyi={S\bibinitperiod},
+           given={Zifang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=0d9f240d032f9e8288bb3d77160c9165}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ade05bacd3ec25a70865057b0bd3d588}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=92c3c2a1d5578c70b1800c207b92f36a}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Jianxun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b659a969918242dc8bc048750fe9e7c1}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={George\bibnamedelima F.},
+           giveni={G\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a04c707bfb5584312d6f4413999838d}
+      \strng{fullhash}{7246a16533401d0e7e72b8b1f8f86a19}
+      \strng{bibnamehash}{7246a16533401d0e7e72b8b1f8f86a19}
+      \strng{authorbibnamehash}{7246a16533401d0e7e72b8b1f8f86a19}
+      \strng{authornamehash}{0a04c707bfb5584312d6f4413999838d}
+      \strng{authorfullhash}{7246a16533401d0e7e72b8b1f8f86a19}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, Zika virus (ZIKV) emerged as a global public health concern and is distinct from other flaviviruses in many aspects, for example, causing transplacental infection, fetal abnormalities and vector-independent transmission through body fluids in humans. The capsid (C) protein is a multifunctional protein, since it binds to viral RNA in the process of nucleocapsid assembly and plays important roles in virus infection processes by interacting with cellular proteins, modulating cellular metabolism, apoptosis and immune response. Here we solved the crystal structure of ZIKV C protein at a resolution of 1.9{Å}. The ZIKV C protein structure contains four {$\alpha$} helices with a long pre-{$\alpha$}1 loop and forms dimers. The unique long pre-{$\alpha$}1 loop in ZIKV C contributes to the tighter association of dimeric assembly and renders a divergent hydrophobic feature at the lipid bilayer interface in comparison with the known C structures of West Nile and dengue viruses. We reported the interaction between the ZIKV C protein and lipid droplets through confocal microscopy analysis. Substitutions of key amino acids in the pre-{$\alpha$}1 loop of ZIKV C disrupted the interaction with lipid droplets, indicating that the loop is critical for membrane association. We also recognized that ZIKV C protein possesses broad binding capability to different nucleotide types, including single-stranded and double-stranded RNAs or DNAs. Furthermore, the highly positively charged interface, mainly formed by {$\alpha$}4 helix, is proposed to be responsible for nucleotide binding. These findings will greatly enhance our understanding of ZIKV C protein, providing information for anti-ZIKV drug design targeting the C protein.}
+      \field{issn}{0022-2836}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{month}{3}
+      \field{number}{7}
+      \field{title}{Crystal {{Structure}} of the {{Capsid Protein}} from {{Zika Virus}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{430}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{948\bibrangedash 962}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.jmb.2018.02.006
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/EVIEUJPZ/S0022283618300767.html
+      \endverb
+      \keyw{capsid (C),protein-lipid interaction,RNA binding protein,virus assembly,Zika virus}
+    \endentry
+    \entry{shiDivergentVirusesDiscovered2015}{article}{}
+      \name{author}{17}{}{%
+        {{hash=200569dff2297df6e93e3f81da341dc1}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Mang},
+           giveni={M\bibinitperiod}}}%
+        {{hash=50d9aeb4a469160e9e34dee6eab6c793}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Xian-Dan},
+           giveni={X\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=4a52ce549786857bc6bfe4556e40c27f}{%
+           family={Vasilakis},
+           familyi={V\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0740def03f8ba5f3588ca6d98ec62615}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Jun-Hua},
+           giveni={J\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=ce613c16456563235be4f31a092e3438}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ci-Xiu},
+           giveni={C\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=90e8beadc7223004e2e5a46c08987a54}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Liang-Jun},
+           giveni={L\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=0325f38ac74ff1541900bf13f55335f9}{%
+           family={Eastwood},
+           familyi={E\bibinitperiod},
+           given={Gillian},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5562a1a5db560dc1a1384535e51c1406}{%
+           family={Diao},
+           familyi={D\bibinitperiod},
+           given={Xiu-Nian},
+           giveni={X\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=452a34c717af1f99019a8750fd98c860}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ming-Hui},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=e7b7a2010a7d5e2313bee7c60145b7ec}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=44e4fbaca7f17ebc648c22b9c7d248bd}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Xin-Cheng},
+           giveni={X\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=8cf4e0a97381b54b832b235c3133225b}{%
+           family={Widen},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=fdf19aa0c506ae325d78d435f0b3631c}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=8fbf99b34c590dd5b378d4c8617f300c}{%
+           family={Tesh},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a1f074f07363aec8156cd3b08d44271b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Jianguo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0f7f4c5886749e5af7d947101259d9e}{%
+           family={Holmes},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=fa28d0acf6a8b72034a5bcceea7b33e0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yong-Zhen},
+           giveni={Y\bibinithyphendelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{22a0262e3f70def4232c502cbcd2a414}
+      \strng{fullhash}{af18db08073eeadaa66b3d93085d0055}
+      \strng{bibnamehash}{af18db08073eeadaa66b3d93085d0055}
+      \strng{authorbibnamehash}{af18db08073eeadaa66b3d93085d0055}
+      \strng{authornamehash}{22a0262e3f70def4232c502cbcd2a414}
+      \strng{authorfullhash}{af18db08073eeadaa66b3d93085d0055}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Viruses of the family Flaviviridae are important pathogens of humans and other animals and are currently classified into four genera. To better understand their diversity, evolutionary history, and genomic flexibility, we used transcriptome sequencing (RNA-seq) to search for the viruses related to the Flaviviridae in a range of potential invertebrate and vertebrate hosts. Accordingly, we recovered the full genomes of five segmented jingmenviruses and 12 distant relatives of the known Flaviviridae (``flavi-like'' viruses) from a range of arthropod species. Although these viruses are highly divergent, they share a similar genomic plan and common ancestry with the Flaviviridae in the NS3 and NS5 regions. Remarkably, although these viruses fill in major gaps in the phylogenetic diversity of the Flaviviridae, genomic comparisons reveal important changes in genome structure, genome size, and replication/gene regulation strategy during evolutionary history. In addition, the wide diversity of flavi-like viruses found in invertebrates, as well as their deep phylogenetic positions, suggests that they may represent the ancestral forms from which the vertebrate-infecting viruses evolved. For the vertebrate viruses, we expanded the previously mammal-only pegivirus-hepacivirus group to include a virus from the graceful catshark (Proscyllium habereri), which in turn implies that these viruses possess a larger host range than is currently known. In sum, our data show that the Flaviviridae infect a far wider range of hosts and exhibit greater diversity in genome structure than previously anticipated., IMPORTANCE The family Flaviviridae of RNA viruses contains several notorious human pathogens, including dengue virus, West Nile virus, and hepatitis C virus. To date, however, our understanding of the biodiversity and evolution of the Flaviviridae has largely been directed toward vertebrate hosts and their blood-feeding arthropod vectors. Therefore, we investigated an expanded group of potential arthropod and vertebrate host species that have generally been ignored by surveillance programs. Remarkably, these species contained diverse flaviviruses and related viruses that are characterized by major changes in genome size and genome structure, such that these traits are more flexible than previously thought. More generally, these data suggest that arthropods may be the ultimate reservoir of the Flaviviridae and related viruses, harboring considerable genetic and phenotypic diversity. In sum, this study revises the traditional view on the evolutionary history, host range, and genomic structures of a major group of RNA viruses.}
+      \field{issn}{0022-538X}
+      \field{journaltitle}{Journal of Virology}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Divergent {{Viruses Discovered}} in {{Arthropods}} and {{Vertebrates Revise}} the {{Evolutionary History}} of the {{Flaviviridae}} and {{Related Viruses}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{90}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{659\bibrangedash 669}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1128/JVI.02036-15
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/UGPD7MYX/Shi et al. - 2015 - Divergent Viruses Discovered in Arthropods and Ver.pdf
+      \endverb
+    \endentry
+    \entry{Simmonds2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3db6f60aa2e7ab96c3918285e6108e3e}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dd7b6522c5c02f2f4ae8439cf44d481a}{%
+           family={Becher},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4a1bfadaf3a187c3556c8a48a02aa920}{%
+           family={Collett},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={{al.}},
+           familyi={a\bibinitperiod},
+           given={et},
+           giveni={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d70cee19457270d66f55dfd66e17a9e}
+      \strng{fullhash}{ea4576c7a6d63dd9e08779d066185952}
+      \strng{bibnamehash}{ea4576c7a6d63dd9e08779d066185952}
+      \strng{authorbibnamehash}{ea4576c7a6d63dd9e08779d066185952}
+      \strng{authornamehash}{7d70cee19457270d66f55dfd66e17a9e}
+      \strng{authorfullhash}{ea4576c7a6d63dd9e08779d066185952}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of General Virology}
+      \field{number}{1}
+      \field{title}{{{ICTV}} Virus Taxonomy Profile: {{Flaviviridae}}}
+      \field{volume}{98}
+      \field{year}{2017}
+      \field{pages}{2\bibrangedash 3}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1099/jgv.0.000672
+      \endverb
+    \endentry
+    \entry{Tautz2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d17277ce4c4ad8ef70adc3a815a58736}{%
+           family={Tautz},
+           familyi={T\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+        {{hash=352c9c76247e917bc42a1d93a96be682}{%
+           family={Tews},
+           familyi={T\bibinitperiod},
+           given={Birke\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b651b8320b73ac3e7354155db58828c8}{%
+           family={Meyers},
+           familyi={M\bibinitperiod},
+           given={Gunter},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{18caf69db894b6e0a8ef60bd46782a40}
+      \strng{fullhash}{18caf69db894b6e0a8ef60bd46782a40}
+      \strng{bibnamehash}{18caf69db894b6e0a8ef60bd46782a40}
+      \strng{authorbibnamehash}{18caf69db894b6e0a8ef60bd46782a40}
+      \strng{authornamehash}{18caf69db894b6e0a8ef60bd46782a40}
+      \strng{authorfullhash}{18caf69db894b6e0a8ef60bd46782a40}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Virus Research}
+      \field{title}{The Molecular Biology of Pestiviruses}
+      \field{volume}{93}
+      \field{year}{2015}
+      \field{pages}{47\bibrangedash 160}
+      \range{pages}{114}
+      \verb{doi}
+      \verb 10.1016/bs.aivir.2015.03.002
+      \endverb
+    \endentry
+    \entry{Tavare1986}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=82612528b855cb223ff1e88634cdabca}{%
+           family={Tavaré},
+           familyi={T\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{82612528b855cb223ff1e88634cdabca}
+      \strng{fullhash}{82612528b855cb223ff1e88634cdabca}
+      \strng{bibnamehash}{82612528b855cb223ff1e88634cdabca}
+      \strng{authorbibnamehash}{82612528b855cb223ff1e88634cdabca}
+      \strng{authornamehash}{82612528b855cb223ff1e88634cdabca}
+      \strng{authorfullhash}{82612528b855cb223ff1e88634cdabca}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lectures on Mathematics in the Life Sciences}
+      \field{title}{Some Probabilistic and Statistical Problems in the Analysis of {{DNA}} Sequences}
+      \field{volume}{17}
+      \field{year}{1986}
+      \field{pages}{57\bibrangedash 86}
+      \range{pages}{30}
+    \endentry
+    \entry{vankempenFastAccurateProtein2024}{article}{}
+      \name{author}{8}{}{%
+        {{hash=f989f1bb8021eec18b681068b0bbe1a4}{%
+           family={{van Kempen}},
+           familyi={v\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6667a7b23d91ffc5e8dc2c4032bf1eeb}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Stephanie\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=4d1a783d7b767ce455353747dc89be6c}{%
+           family={Tumescheit},
+           familyi={T\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2dac539cd49fcc48ee89ea09ce5e40c3}{%
+           family={Mirdita},
+           familyi={M\bibinitperiod},
+           given={Milot},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a6f8561f16c7c642dadad82bca1508a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jeongjae},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3c92bbb2c82c6d624367921c0f3ee2f1}{%
+           family={Gilchrist},
+           familyi={G\bibinitperiod},
+           given={Cameron\bibnamedelimb L.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e67661e270ffc979f77600b3904f2e9c}{%
+           family={Söding},
+           familyi={S\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{06ac0d8e0c557777c9338320803c06bf}
+      \strng{fullhash}{65c03aaff57d8cda976d2ec99c6384d2}
+      \strng{bibnamehash}{65c03aaff57d8cda976d2ec99c6384d2}
+      \strng{authorbibnamehash}{65c03aaff57d8cda976d2ec99c6384d2}
+      \strng{authornamehash}{06ac0d8e0c557777c9338320803c06bf}
+      \strng{authorfullhash}{65c03aaff57d8cda976d2ec99c6384d2}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86\%, 88\% and 133\% of the sensitivities of Dali, TM-align and CE, respectively.}
+      \field{issn}{1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Fast and Accurate Protein Structure Search with {{Foldseek}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{42}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{243\bibrangedash 246}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/s41587-023-01773-0
+      \endverb
+      \verb{file}
+      \verb /Users/tobias.polley/Zotero/storage/S2NBR42F/van Kempen et al. - 2024 - Fast and accurate protein structure search with Fo.pdf
+      \endverb
+      \keyw{Computational biology and bioinformatics,Software,Structural biology}
+    \endentry
+    \entry{Vieyres2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=966bdf148723d8a79da8797ad46899d9}{%
+           family={Vieyres},
+           familyi={V\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d8f239dd1aaa20f7a3289f0b3fead641}{%
+           family={Pietschmann},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \strng{fullhash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \strng{bibnamehash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \strng{authorbibnamehash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \strng{authornamehash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \strng{authorfullhash}{58bd2f80d3c86c76b56abf7c1c899357}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods (San Diego, Calif.)}
+      \field{number}{2}
+      \field{title}{Entry and Replication of Recombinant Hepatitis {{C}} Viruses in Cell Culture}
+      \field{volume}{59}
+      \field{year}{2013}
+      \field{pages}{233\bibrangedash 248}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.ymeth.2012.09.005
+      \endverb
+    \endentry
+    \entry{Weaver2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=db817353f51ef8be91499f5ffbfb2af1}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Scott\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4a52ce549786857bc6bfe4556e40c27f}{%
+           family={Vasilakis},
+           familyi={V\bibinitperiod},
+           given={Nikos},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \strng{fullhash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \strng{bibnamehash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \strng{authorbibnamehash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \strng{authornamehash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \strng{authorfullhash}{665fbc88f4e5ff419232f6ffde43e7f5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Infection, Genetics and Evolution}
+      \field{number}{4}
+      \field{title}{Molecular Evolution of Dengue Viruses: Contributions of Phylogenetics to Understanding the History and Epidemiology of the Preeminent Arboviral Disease}
+      \field{volume}{9}
+      \field{year}{2009}
+      \field{pages}{523\bibrangedash 540}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.meegid.2009.02.003
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

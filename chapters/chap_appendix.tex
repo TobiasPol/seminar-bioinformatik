@@ -1,2 +1,52 @@
-\chapter{Java Code} \label{chap:javacode}
+\chapter{Mathematische Formeln} \label{chap:mathematische-formeln}
+
+\section{Multiple Sequence Alignment mit MAFFT}
+
+MAFFT ist ein Tool zur Erstellung von Multiplen Sequenzalignments (\gls{msa}). Die Qualität eines Alignments wird durch eine Punktzahl $\mathcal{S}$ bewertet, die die Übereinstimmung zwischen den Sequenzen quantifiziert:
+
+\begin{align}
+    \mathcal{S} = \sum_{i=1}^n \sum_{j=i+1}^n w_{ij} \cdot \text{Score}(i, j)
+\end{align}
+
+Hierbei ist $w_{ij}$ ein Gewichtungsfaktor, der die Relevanz des Vergleichs zwischen Sequenz $i$ und Sequenz $j$ angibt, und $\text{Score}(i, j)$ ist die Ähnlichkeit zwischen den beiden Sequenzen basierend auf Substitutionsmatrizen wie BLOSUM oder PAM.
+
+Um Ähnlichkeiten zwischen Sequenzen effizient zu berechnen, transformiert MAFFT die Sequenzen mittels Fourier-Transformation in das Frequenzspektrum:
+
+\begin{align}
+    \mathcal{F}(k) = \sum_{n=0}^{N-1} x(n) \cdot e^{-i \frac{2\pi k n}{N}}
+\end{align}
+
+Dabei ist $\mathcal{F}(k)$ das Frequenzspektrum der Sequenz, $x(n)$ die diskrete Funktion der Sequenz an Position $n$, $N$ die Länge der Sequenz und $i$ die imaginäre Einheit.
+
+Die Distanz zwischen Sequenzen wird durch eine Distanzmatrix $\mathcal{D}(i, j)$ berechnet:
+
+\begin{align}
+    \mathcal{D}(i, j) = 1 - \frac{\sum_{k=1}^L \delta(x_k^i, x_k^j)}{L}
+\end{align}
+
+Hier ist $\delta(x_k^i, x_k^j)$ eine Indikatorfunktion, die 1 ist, wenn die Aminosäuren an Position $k$ in Sequenz $i$ und $j$ identisch sind, sonst 0. $L$ ist die Länge der Ausrichtung.
+
+\section{Maximum-Likelihood-Methode und Substitutionsmodell}
+
+Die Maximum-Likelihood-Methode zielt darauf ab, die Baumtopologie $T$ zu finden, die die Wahrscheinlichkeit der beobachteten Daten $D$ maximiert, gegeben ein Modell $M$:
+
+\begin{align}
+    \mathcal{L}(M) = P(D \mid M) = \prod_{i=1}^{n} P(d_i \mid M)
+\end{align}
+
+Dabei ist $\mathcal{L}(M)$ die Likelihood des Modells, und $P(d_i \mid M)$ die Wahrscheinlichkeit der Daten an Position $i$, gegeben das Modell $M$.
+
+Das verwendete Substitutionsmodell \gls{gtrig} berücksichtigt unterschiedliche Substitutionsraten zwischen Nukleotiden, einen Anteil invarianter Positionen und gamma-verteilte Rate-Heterogenität. Die genaue Formulierung des Modells beinhaltet komplexe mathematische Gleichungen zur Beschreibung der Übergangswahrscheinlichkeiten zwischen Nukleotiden.
+
+\section{Berechnung der Root-Mean-Square Deviation (RMSD)}
+
+Die Root-Mean-Square Deviation (\gls{rmsd}) ist ein Maß für die durchschnittliche Distanz zwischen entsprechenden Atomen zweier Proteinstrukturen nach optimaler Überlagerung:
+
+\begin{align}
+    \text{RMSD} = \sqrt{\frac{1}{N} \sum_{i=1}^N \| \mathbf{p}_i - \mathbf{q}_i \|^2}
+\end{align}
+
+Hierbei sind $\mathbf{p}_i$ und $\mathbf{q}_i$ die Ortsvektoren des $i$-ten Atoms in den beiden zu vergleichenden Strukturen, und $N$ ist die Gesamtzahl der Atome (oder C$_\alpha$-Atome) im Vergleich. $\| \cdot \|$ bezeichnet die euklidische Norm.
+
+Die RMSD-Berechnung ermöglicht die Quantifizierung der strukturellen Ähnlichkeit zwischen Proteinmodellen und dient als Kriterium für die Qualität der Strukturüberlagerung.
 

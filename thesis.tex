@@ -4,18 +4,20 @@
 \RequirePackage{fix-cm,cmap}
 
 \documentclass[
-fontsize=11pt,
-paper=a4,
-abstract=true,
-numbers=noenddot,
-listof=totoc,
-bibliography=totoc,
-twoside,
-open=right,
-cleardoublepage=plain,
-parskip=half+, % comment this out if you do not want an empty half line between paragraphs, but please read the KomaScript Guide and search for parskip (around page 82): ftp://ftp.dante.de/pub/tex/macros/latex/contrib/koma-script/scrguide.pdf
-BCOR=1cm, % Bindekorrektur: Change this accordingly, also read the KomaScript Guide! Make sure you read the guide.
+    fontsize=11pt,
+    paper=a4,
+    abstract=true,
+    numbers=noenddot,
+    listof=totoc,
+    bibliography=totoc,
+    oneside,
+    open=right,
+    cleardoublepage=plain,
+    parskip=half+,
+    BCOR=0cm,
 ]{scrreprt}
+
+\usepackage[a4paper, margin=2.5cm]{geometry}
 
 \input{misc/preamble}
 \input{misc/acronyms.tex}
@@ -30,6 +32,7 @@ BCOR=1cm, % Bindekorrektur: Change this accordingly, also read the KomaScript Gu
 \input{frontpage}
 
 \input{chapters/chap_0}
+\input{chapters/bemerkungen.tex}
 
 \pagenumbering{arabic} %switches to arabic numbers for the rest of the text
 \setcounter{page}{1}

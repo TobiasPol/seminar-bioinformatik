@@ -1,22 +1,21 @@
-\chapter{Results} \label{chap:results}
+\chapter{Schlussfolgerung} \label{chap:schlussfolgerung}
 
-It is \textbf{\gls{bcp}} to provide a brief overview on your most interesting results in the beginning.
-In \autoref{tab:results} you can see the results of our \gls{sso} evaluation against \gls{xss}, \gls{sqli}, \gls{csrf} and \gls{clickjacking} attacks.
+Die vorliegende Arbeit hat durch eine umfassende Analyse der Glycoprotein-Strukturen innerhalb der Flaviviridae-Familie neue Erkenntnisse über deren evolutionäre Geschichte und Pathogenese geliefert. Durch die Kombination von phylogenetischen Analysen basierend auf NS5-Sequenzen, Proteinstrukturvorhersagen mittels ColabFold und ESMFold sowie strukturellen Homologiesuchen mit Foldseek konnten sowohl konservierte als auch variable Merkmale der Glycoproteine identifiziert werden \autocite{mifsudMappingGlycoproteinStructure2024}.
 
-\newcommand{\vuln}{\faCircle}
-\newcommand{\notvuln}{\faCircle[regular]}
+Die phylogenetische Analyse ergab eine Aufteilung der Flaviviridae in drei Hauptkladen, die eng mit den beobachteten Unterschieden in den Glycoprotein-Strukturen korrelieren. Konservierte Regionen wie die hydrophoben Fusion-Loops und transmembranen Domänen wurden über verschiedene Gattungen hinweg identifiziert, was auf ihre essenzielle Rolle in der viralen Funktion, insbesondere bei der Membranfusion und dem Eintritt in Wirtszellen, hindeutet \autocite{Rey1995} \autocite{Modis2004}.
 
-\begin{table}[htbp]
-    \centering
-    \begin{tabular}{@{}llcccc@{}}
-      \toprule
-       & Browser & XSS & SQLi & CSRF & Clickjacking \\
-      \midrule
-      \faFirefox & Firefox & \notvuln & \vuln & \vuln & \vuln \\
-      \faChrome  & Chrome & \vuln & \notvuln & \vuln & \vuln \\
-      \faSafari  & Safari & \vuln & \vuln & \notvuln & \vuln \\
-      \bottomrule
-    \end{tabular}
-    \label{tab:results}
-    \caption{Write a short message that everyone should understand, e.g., \enquote{All browsers were found vulnerable (\vuln{}) to Clickjacking} instead of simply writing \enquote{Evaluation results.}. Also describe what the symbols mean.}
-  \end{table}
+Gleichzeitig wurden signifikante strukturelle Variationen in den Glycoproteinen festgestellt, insbesondere in den E1/E2-Komplexen der Hepaciviren und Pegiviren sowie in den Glycoproteinen der Pestiviren und Jingmenviren. Diese Unterschiede könnten adaptive Mechanismen widerspiegeln, die es den Viren ermöglichen, sich an verschiedene Wirte anzupassen oder das Immunsystem zu umgehen \autocite{Lavie2017}.
+
+Die Anwendung moderner bioinformatischer Methoden hat es ermöglicht, detaillierte Einblicke in die Struktur-Funktions-Beziehungen der Glycoproteine zu gewinnen und deren evolutionäre Diversifikation zu beleuchten. Trotz einiger methodologischer Limitierungen bieten die Ergebnisse eine solide Grundlage für zukünftige Forschungsarbeiten.
+
+\section{Zusammenfassung der Ergebnisse} \label{sec:zusammenfassung-der-ergebnisse}
+
+Die Erkenntnisse dieser Arbeit haben mehrere praktische Implikationen. Die Identifizierung konservierter struktureller Merkmale wie der Fusion-Loops bietet potenzielle Zielstrukturen für die Entwicklung von breit wirksamen antiviralen Therapeutika und Impfstoffen \autocite{Fernandez2018}. Therapeutische Ansätze könnten darauf abzielen, diese konservierten Regionen zu blockieren und somit die virale Infektiosität zu reduzieren.
+
+Die Variabilität in den Glycoprotein-Strukturen, insbesondere in den variablen Oberflächenregionen, eröffnet Möglichkeiten für die Entwicklung von gattungsspezifischen antiviralen Strategien. Ein besseres Verständnis der Mechanismen, die der Wirtsspezifität und Immunabwehr zugrunde liegen, könnte zur Entwicklung maßgeschneiderter Therapien beitragen.
+
+Zukünftige Forschungsarbeiten sollten sich auf die experimentelle Validierung der vorhergesagten Strukturen konzentrieren, um die Genauigkeit der in silico Modelle zu bestätigen und deren funktionelle Relevanz zu untersuchen. Darüber hinaus wäre es sinnvoll, die phylogenetischen Analysen durch zusätzliche genetische Marker zu erweitern und Metagenomik-Daten einzubeziehen, um ein umfassenderes Bild der Evolution und Diversität der Flaviviridae zu erhalten.
+
+Die Weiterentwicklung bioinformatischer Methoden, insbesondere in Bezug auf Proteinstrukturvorhersage und Homologiesuche, könnte die Genauigkeit und Zuverlässigkeit zukünftiger Analysen verbessern. Die Integration von maschinellem Lernen und experimentellen Daten bietet hier ein vielversprechendes Potenzial \autocite{Senior2020}.
+
+Insgesamt trägt diese Arbeit zum tieferen Verständnis der molekularen Mechanismen bei, die der Evolution und Pathogenese der Flaviviridae zugrunde liegen, und legt den Grundstein für zukünftige Forschungen, die letztlich zur Bekämpfung dieser bedeutenden Virenfamilie beitragen könnten.

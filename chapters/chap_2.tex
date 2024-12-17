@@ -1,23 +1,47 @@
-\chapter{Related Work}
+\chapter{Methoden} \label{chap:methoden}
 
-Every thesis must contain a dedicated section on related work.
-You can safely spend at least two pages for this section.
+\section{Phylogenetische Analyse} \label{sec:phylogenetische-analyse}
 
-List related work \emph{and} the result of this work.
-What is the relevance of this work concerning your thesis?
+Für die phylogenetische Untersuchung der Flaviviridae-Familie wurden 458 vollständige Genomsequenzen aus öffentlichen Datenbanken wie GenBank extrahiert und sorgfältig kuratiert, um eine hohe Datenqualität sicherzustellen \autocite{mifsudMappingGlycoproteinStructure2024}. Als phylogenetischer Marker diente das \gls{nsfive}-Gen, welches für die RNA-abhängige RNA-Polymerase (\gls{rdrp}) kodiert und aufgrund seiner hohen Konservierung innerhalb der Flaviviridae ideal für phylogenetische Analysen ist \autocite{Koonin1991}.
 
-\textbf{Hint:} Do not manually cite author names, use \code|\citeauthor{Newsome:05:DTA}|, for example, \enquote{\citeauthor{Newsome:05:DTA}}.
-It takes also care if multiple authors are used, for example, \code|\citeauthor{AviramSSHDSVAHD16}| becomes \enquote{\citeauthor{AviramSSHDSVAHD16}}.
-You could also get the full list of authors by using the command \code|\citeauthor*{AviramSSHDSVAHD16}| (\enquote{\citeauthor*{AviramSSHDSVAHD16}}) but this should only be used in rare cases.
+Die Sequenzen wurden mit dem Programm \gls{mafft} zu einem Multiplen Sequenzalignment (\gls{msa}) ausgerichtet \autocite{Katoh2013}. \gls{mafft} ermöglicht durch effiziente Algorithmen und die Nutzung von Fourier-Transformationen eine genaue Ausrichtung großer Datensätze, wodurch konservierte und variable Regionen innerhalb der Sequenzen identifiziert werden können. Die detaillierten mathematischen Methoden zur Erstellung der \glspl{msa} sind im Anhang \ref{chap:mathematische-formeln} beschrieben.
 
-Similarly, use \code|\citeyear{Newsome:05:DTA}| to get the year (\enquote{\citeyear{Newsome:05:DTA}}).
+Anschließend wurde das \gls{msa} verwendet, um einen phylogenetischen Baum zu rekonstruieren. Hierfür kam die Maximum-Likelihood-Methode zum Einsatz, implementiert im Programm \gls{iqtree} \autocite{Nguyen2015}. Das \gls{gtrig}-Substitutionsmodell wurde gewählt, da es eine flexible Modellierung von Nukleotidsubstitutionen ermöglicht und für komplexe phylogenetische Analysen geeignet ist \autocite{Tavare1986}. Die mathematischen Grundlagen der Maximum-Likelihood-Methode und des verwendeten Substitutionsmodells sind im Anhang \ref{chap:mathematische-formeln} dargestellt.
 
-\textbf{Tools:}
-We do not make any strict guidelines regarding the tools that can be used to manage the related work.
-You can freely choose your own methodology and tools.
+Die Robustheit der phylogenetischen Baumtopologie wurde durch Bootstrapping mit 1.000 Wiederholungen getestet \autocite{Felsenstein1985}. Dieses statistische Verfahren prüft die Zuverlässigkeit der Knoten im Baum, indem es wiederholt Stichproben aus den Daten zieht und die Baumrekonstruktion durchführt. Hohe Bootstrap-Werte (in der Regel über 70\text{\%}) deuten auf eine starke Unterstützung der entsprechenden Knoten hin.
 
-According to our experience, the following tools can be used as a starting point to find relevant papers:
-\begin{itemize}
-    \item Search Engines: \href{https://scholar.google.com}{Google Scholar}, \href{https://www.webofknowledge.com/}{Web of Science}, \href{https://dl.acm.org/}{ACM Digital Library}, \href{https://ieeexplore.ieee.org/Xplore/home.jsp}{IEEExplore}, and \emph{\{Search Engine\}} + \emph{\{Conference name\} proceedings}
-    \item Management Tools: \href{https://www.it-services.ruhr-uni-bochum.de/services/software/citavi.html.de}{Citavi}, \href{https://www.zotero.org/}{Zotero}, \href{https://www.mendeley.com/}{Mendeley}, and \href{https://www.jabref.org/}{JabRef}.
-\end{itemize}
+Durch diese methodische Vorgehensweise konnten die phylogenetischen Beziehungen innerhalb der Flaviviridae-Familie detailliert untersucht und Hauptkladen identifiziert werden, die mit den beobachteten Unterschieden in den Glycoprotein-Strukturen korrelieren.
+
+\section{Proteinstrukturvorhersage: ColabFold und ESMFold Methoden} \label{sec:colabfold-esmfold}
+
+Für die Vorhersage der dreidimensionalen Strukturen der Glycoproteine der Flaviviridae wurden zwei fortschrittliche bioinformatische Methoden eingesetzt: \gls{colabfold} und \gls{esmfold}. Beide basieren auf tiefen neuronalen Netzwerken, nutzen jedoch unterschiedliche Ansätze zur Proteinstrukturvorhersage und ergänzen sich somit in ihrer Anwendung.
+
+\gls{colabfold} ist eine optimierte und zugängliche Implementierung von AlphaFold2, die es ermöglicht, Proteinstrukturvorhersagen effizient und ressourcenschonend durchzuführen \autocite{Mirdita2022}. AlphaFold2 hat das Feld der Proteinstrukturvorhersage revolutioniert, indem es tiefe neuronale Netzwerke mit evolutionären Informationen aus \glspl{msa} kombiniert, um hochpräzise Strukturvorhersagen zu generieren \autocite{Jumper2021}.
+
+Der Vorhersageprozess mit \gls{colabfold} umfasst mehrere Schritte. Zunächst wird für jede Glycoprotein-Sequenz ein \gls{msa} erstellt, indem homologe Sequenzen aus großen Datenbanken wie \gls{uniref}, MGnify und der \gls{bfd} identifiziert werden. Dieses \gls{msa} dient dazu, evolutionäre Informationen zu extrahieren, indem es konservierte Positionen und ko-evolutionäre Signale zwischen Aminosäuren erkennt. Anschließend werden die Sequenz und das \gls{msa} in das AlphaFold2-Modell eingegeben. Das Modell besteht aus einem \gls{evoformer}-Modul, das Transformer-Architekturen verwendet, um Sequenzinformationen und \gls{msa}-Daten zu verarbeiten und langreichweitige Wechselwirkungen zwischen Aminosäuren zu modellieren. Schließlich sagt ein Strukturvorhersagekopf die dreidimensionalen Koordinaten der Proteinatome voraus, wobei sowohl geometrische als auch physikalische Constraints berücksichtigt werden. Die Qualität der Vorhersagen wird durch den \gls{plddt} bewertet, der einen Vertrauenswert für jede Position im Protein liefert.
+
+Im Gegensatz dazu verwendet \gls{esmfold} einen proteinsprachbasierten Ansatz, der direkt aus Einzelsequenzen lernt, ohne auf \glspl{msa} angewiesen zu sein \autocite{linEvolutionaryscalePredictionAtomiclevel2023}. \gls{esmfold} basiert auf dem ESM-2-Modell, einem großen Transformer-Sprachmodell, das auf Millionen von Proteinsequenzen trainiert wurde. Es nutzt Techniken aus der natürlichen Sprachverarbeitung (\gls{nlp}), um Muster und Regularitäten in Proteinsequenzen zu erkennen. Die Proteinsequenz wird in das Modell eingegeben, das eine kontextabhängige Repräsentation jeder Aminosäure erzeugt. Diese Repräsentationen werden dann verwendet, um die dreidimensionalen Koordinaten der Proteinstruktur vorherzusagen, indem Abstände und Orientierungen zwischen Aminosäuren geschätzt werden. Obwohl \gls{esmfold} keine \glspl{msa} verwendet, kann es dennoch genaue Vorhersagen liefern, insbesondere bei Proteinen mit wenigen oder keinen homologen Sequenzen.
+
+Beide Methoden wurden angewandt, um die Strukturen der Glycoproteine der verschiedenen Flaviviridae-Gattungen vorherzusagen. Durch den Einsatz von \gls{colabfold} konnten wir von den evolutionären Informationen profitieren, die in den \glspl{msa} enthalten sind, was insbesondere bei konservierten Proteinen zu präzisen Vorhersagen führt. \gls{esmfold} ergänzte diese Vorhersagen, indem es auch für hochdivergente Sequenzen zuverlässige Ergebnisse lieferte, bei denen wenige homologe Sequenzen verfügbar sind.
+
+Die vorhergesagten Strukturen wurden anschließend validiert und verglichen. Eine Strukturüberlagerung der Modelle aus \gls{colabfold} und \gls{esmfold} ermöglichte die Beurteilung der räumlichen Übereinstimmung, und die Berechnung der Root-Mean-Square Deviation (\gls{rmsd}) lieferte quantitative Maße für Unterschiede zwischen den Strukturen. Die \gls{plddt}-Werte wurden analysiert, um Bereiche hoher und niedriger Vorhersagegenauigkeit zu identifizieren. Besondere Aufmerksamkeit wurde konservierten strukturellen Motiven wie den hydrophoben Fusion-Loops geschenkt, die für die Funktion der Glycoproteine essenziell sind \autocite{Modis2004}.
+
+Die Vorhersagen der Glycoprotein-Strukturen ermöglichten es, funktionelle Domänen zu identifizieren und Unterschiede zwischen den Gattungen der Flaviviridae zu analysieren. So konnten wir beispielsweise Variationen in den Oberflächenexpositionen potenzieller Rezeptorbindungsstellen feststellen, was auf unterschiedliche Mechanismen des Viruseintritts und der Wirtsspezifität hindeutet \autocite{Lavie2017}.
+
+Es ist jedoch zu beachten, dass die Genauigkeit der Vorhersagen von mehreren Faktoren abhängt. Bei Proteinen mit hoher Sequenzdivergenz oder wenigen verfügbaren homologen Sequenzen kann die Vorhersagegenauigkeit beeinträchtigt sein. Während \gls{colabfold} auf die Verfügbarkeit umfangreicher Sequenzdaten angewiesen ist, zeigt \gls{esmfold} Vorteile bei der Vorhersage von Proteinen mit geringer Homologie zu bekannten Strukturen. Dennoch ist die Interpretation der Vertrauenswerte und Vorhersagen im Kontext biologischer Funktion und experimenteller Validierung essenziell.
+
+Die Kombination von \gls{colabfold} und \gls{esmfold} ermöglichte es, ein umfassendes Bild der Glycoprotein-Strukturen der Flaviviridae zu erhalten. Diese Strukturen bilden die Grundlage für weiterführende Studien zur Funktion, Evolution und potenziellen therapeutischen Zielstrukturen innerhalb dieser bedeutenden Virusfamilie.
+
+\section{Homologiesuche: Anwendung von Foldseek} \label{sec:foldseek}
+
+Zur Untersuchung der evolutionären Beziehungen zwischen den Glycoproteinen der Flaviviridae und zur Identifizierung struktureller Homologien wurde das Programm \gls{foldseek} eingesetzt \autocite{vankempenFastAccurateProtein2024}. \gls{foldseek} ermöglicht einen schnellen und effizienten Vergleich von Proteinstrukturen auf Basis geometrischer und physikochemischer Eigenschaften, was besonders für große Datensätze und hochdivergente Sequenzen geeignet ist.
+
+Die vorhergesagten Glycoprotein-Strukturen aus \gls{colabfold} und \gls{esmfold} wurden mit \gls{foldseek} gegen die \gls{pdb} durchsucht, um potenzielle strukturelle Homologien zu bekannten Proteinen zu identifizieren. Dabei werden die dreidimensionalen Koordinaten der Proteine in vereinfachte Merkmalsrepräsentationen umgewandelt, die charakteristische strukturelle Merkmale erfassen \autocite{vankempenFastAccurateProtein2024}. Durch effiziente Algorithmen können so strukturelle Ähnlichkeiten auch bei geringer Sequenzidentität erkannt werden, was traditionelle sequenzbasierte Methoden wie BLAST nicht leisten \autocite{Altschul1990}.
+
+Die Ergebnisse wurden anhand von Alignment-Scores und \gls{rmsd}-Werten bewertet, um die Qualität der Übereinstimmungen zu quantifizieren. Hohe Übereinstimmungen deuteten auf konservierte Faltungsmuster hin, insbesondere die Klasse-II-Fusionsproteinfaltung, die für die Funktion der Glycoproteine essenziell ist \autocite{Kielian2006}. Trotz hoher Sequenzdivergenz konnten gemeinsame strukturelle Merkmale identifiziert werden, was auf eine konservierte Funktion und einen gemeinsamen evolutionären Ursprung hindeutet \autocite{Chothia1986}.
+
+Die Übereinstimmung zwischen zwei Strukturen wird durch die \gls{rmsd} bewertet, wobei die detaillierte mathematische Herleitung im Anhang \ref{chap:mathematische-formeln} erläutert wird.
+
+Die Integration der \gls{foldseek}-Ergebnisse mit den phylogenetischen Analysen und den Proteinstrukturvorhersagen ermöglichte ein umfassendes Verständnis der evolutionären Beziehungen innerhalb der Flaviviridae. Diskrepanzen zwischen sequenzbasierten Phylogenien und strukturbasierten Homologien wurden analysiert, um mögliche Fälle von konvergenter Evolution oder funktioneller Anpassung zu identifizieren \autocite{Doolittle1999}.
+
+Durch diese methodische Vorgehensweise konnten funktionelle Domänen innerhalb der Glycoproteine identifiziert und neue Erkenntnisse über ihre evolutionäre Diversität gewonnen werden. Die strukturelle Homologiesuche mit \gls{foldseek} erwies sich somit als wertvolles Werkzeug zur Erweiterung des Verständnisses der Flaviviridae-Proteinstrukturen über die Grenzen sequenzbasierter Analysen hinaus.

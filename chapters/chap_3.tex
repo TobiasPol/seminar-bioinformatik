@@ -1,15 +1,38 @@
-\chapter{Background} \label{chap:background}
+\chapter{Ergebnisse} \label{chap:ergebnisse}
 
-The Background chapter of your thesis is an important part of your work, providing your readers with the necessary context and information to understand the problem you are addressing. To write a good Background chapter, it is important to remember that you should only describe the background that is necessary for your readers to know.
-You don't need to explain everything that you cover during the thesis's processing time.
+\section{Phylogenetische Strukturen und Klassifizierung} \label{sec:phylogenetische-strukturen}
 
-One common mistake is to provide a lengthy description of official standards. This is not necessary as your readers can look them up themselves.
-Another common mistake is to provide extensive translations or transcriptions of official documents.
-It is usually enough to refer to the source material and provide a systematized overview of its content.
+Die phylogenetische Analyse der Flaviviridae-Familie ergab eine Aufteilung in drei Hauptkladen, basierend auf den NS5-Sequenzen der 458 analysierten Virengenome. Durch die Verwendung des Maximum-Likelihood-Ansatzes mit dem GTR+I+G-Substitutionsmodell konnte ein robustes phylogenetisches Baumdiagramm erstellt werden, das durch hohe Bootstrap-Werte (\text{\>}90\text{\%}) unterstützt wird \autocite{mifsudMappingGlycoproteinStructure2024}.
 
-The key to writing a good Background chapter is its shortness. Keep in mind that this chapter should only provide the minimum information needed to understand your thesis's research question.
-This includes explaining any relevant background theories, prior research, and current state of the field.
-You should also describe any important terms or concepts that readers may not be familiar with.
+Die erste Hauptklade umfasst die Gattung Flavivirus, zu der klassische Vertreter wie das Dengue-Virus, Zika-Virus und Gelbfieber-Virus gehören. Diese Gruppe zeigt eine hohe Sequenzkonservierung im NS5-Gen, was auf eine enge evolutionäre Verwandtschaft hindeutet \autocite{Kuno2007}. Die Glycoprotein-Strukturen dieser Viren sind ebenfalls stark konserviert, insbesondere das E-Glycoprotein, das für die Membranfusion und den Viruseintritt in Wirtszellen essenziell ist \autocite{Rey1995}.
 
-A good way to approach the Background chapter is to think about it as an introduction to the problem you are addressing. This means providing enough context for readers to understand the importance of your research question and why it is worth investigating.
-Remember to keep your writing clear and concise, focusing on the key points that will help readers understand the background of your work.
+Die zweite Hauptklade umfasst die Gattungen Pegivirus und Hepacivirus. Diese Gruppe zeigt eine größere genetische Diversität, insbesondere in den Glycoprotein-Genen. Die E1/E2-Glycoproteine dieser Viren weisen strukturelle Unterschiede zu den E-Glycoproteinen der Flaviviren auf, was auf unterschiedliche Mechanismen des Viruseintritts und der Wirtsspezifität hindeutet \autocite{Vieyres2013}.
+
+Die dritte Hauptklade vereint die Gattungen Pestivirus, Jingmenvirus und die großen Genom-Flaviviren (LGFs). Diese Gruppe zeichnet sich durch hochdivergente Sequenzen und eine bemerkenswerte strukturelle Vielfalt in den Glycoproteinen aus \autocite{shangCrystalStructureCapsid2018}. Die Pestiviren, die hauptsächlich Nutztiere infizieren, zeigen Unterschiede in den transmembranen Domänen und möglichen Rezeptorbindungsstellen, was auf spezifische Anpassungen an ihre Wirte hindeutet \autocite{Tautz2015}.
+
+Die phylogenetische Topologie korreliert eng mit den beobachteten Unterschieden in den Glycoprotein-Strukturen, was darauf hindeutet, dass die evolutionäre Diversifikation dieser Proteine eine treibende Kraft in der Anpassung und Spezialisierung der Flaviviridae-Familie ist \autocite{mifsudMappingGlycoproteinStructure2024}.
+
+\section{Glycoprotein-Divergenz: Unterschiede zwischen Gattungen} \label{sec:glycoprotein-divergenz}
+
+Die Analyse der Glycoproteine mittels ColabFold und ESMFold offenbarte sowohl konservierte als auch variable strukturelle Merkmale zwischen den verschiedenen Gattungen.
+
+Die Flaviviren zeigen eine hohe Konservierung des E-Glycoproteins, insbesondere in der hydrophoben Fusion-Loop-Region und den transmembranen Domänen \autocite{Rey1995}. Die vorhergesagten Strukturen bestätigten die typische Klasse-II-Faltungsarchitektur mit drei Domänen, die hauptsächlich aus $\beta$-Faltblättern bestehen. Die Fusion-Loop, eine kritische Region für die Membranfusion, ist durch konservierte hydrophobe Aminosäuren charakterisiert, was ihre essenzielle Rolle unterstreicht \autocite{Modis2004}.
+
+Die Hepaciviren und Pegiviren zeigen eine einzigartige Organisation ihrer Glycoproteine, bestehend aus den E1- und E2-Proteinen, die Heterodimere bilden \autocite{Vieyres2013}. Die Strukturvorhersagen deuten auf signifikante Unterschiede in der räumlichen Anordnung hin, insbesondere in den Oberflächenexpositionen potenzieller Rezeptorbindungsstellen. Diese Unterschiede könnten die spezifische Wirtsspezifität und das breite Wirtspektrum dieser Viren erklären \autocite{Lavie2017}.
+
+Die Pestiviren und Jingmenviren weisen die größte strukturelle Diversität auf. Ihre Glycoproteine zeigen Variabilität in der Anzahl und Position von transmembranen Domänen sowie in der Länge der extrazellulären Regionen \autocite{Tautz2015}. Die Vorhersagen deuten darauf hin, dass diese Unterschiede funktionelle Anpassungen an spezifische Wirtsorganismen widerspiegeln könnten, möglicherweise durch die Interaktion mit unterschiedlichen Zellrezeptoren oder die Umgehung des Wirtsimmunsystems \autocite{georgelVirusHostInteractions2010}.
+
+Trotz dieser Unterschiede wurden konservierte Motive identifiziert, insbesondere in den hydrophoben Kernen der Fusion-Loops und in bestimmten transmembranen Segmenten. Diese konservierten Regionen könnten unter starkem evolutionärem Selektionsdruck stehen, da sie für die grundlegenden Funktionen der Viren essenziell sind \autocite{Modis2004}.
+
+\section{Spezifische Strukturmerkmale (z. B. Fusion-Loop und transmembrane Regionen)} \label{sec:spezifische-strukturmerkmale}
+
+Die detaillierte Untersuchung der Fusion-Loop-Regionen ergab, dass diese Bereiche aus konservierten hydrophoben Aminosäureresten bestehen, die für die Interaktion mit der Wirtszellmembran entscheidend sind \autocite{Modis2004}. In den Flaviviren ist die Fusion-Loop gut charakterisiert und spielt eine zentrale Rolle bei der Membranfusion unter sauren pH-Bedingungen im Endosom der Wirtszelle \autocite{Rey1995}. Die Strukturvorhersagen bestätigten die Anwesenheit der charakteristischen Schleifenstruktur, die von zwei konservierten Glycinresten flankiert wird, was für die Flexibilität und Funktion der Fusion-Loop wichtig ist \autocite{Modis2004}.
+
+Bei den Hepaciviren und Pegiviren zeigen die Fusion-Loop-Regionen Unterschiede in der Sequenz und möglichen Sekundärstruktur, was auf alternative Fusionsmechanismen hindeuten könnte \autocite{Lavie2017}. Die E1/E2-Komplexe könnten einzigartige strukturelle Eigenschaften besitzen, die spezifisch für diese Gattungen sind und zur unterschiedlichen Pathogenität und Wirtsspezifität beitragen.
+
+Die transmembranen Regionen der Glycoproteine wurden ebenfalls intensiv analysiert. Es wurde festgestellt, dass die Anzahl und Position der transmembranen Domänen zwischen den Gattungen variieren \autocite{Tautz2015}. Flaviviren besitzen typischerweise eine einzelne transmembrane Domäne am C-Terminus des E-Glycoproteins, während Pestiviren und Hepaciviren mehrere transmembrane Segmente aufweisen können \autocite{peninStructureFunctionMembrane2004}. Diese Unterschiede könnten die Organisation der Glycoproteine in der viralen Membran beeinflussen und Auswirkungen auf die Virusassemblierung und Freisetzung haben \autocite{peninStructureFunctionMembrane2004}.
+
+Die Vorhersagen deuten auch auf die Präsenz von Signalpeptiden und Ankersequenzen hin, die für die richtige Lokalisierung und Funktion der Glycoproteine notwendig sind \autocite{Ashkenazy2016}. Variationen in diesen Bereichen könnten die Interaktion mit zellulären Faktoren beeinflussen und somit die Virusreplikation und Pathogenität modulieren.
+
+Insgesamt liefern die Ergebnisse wichtige Einblicke in die strukturellen Merkmale der Glycoproteine der Flaviviridae und deren evolutionäre Anpassungen. Die Kombination aus phylogenetischer Analyse und Proteinstrukturvorhersage ermöglicht ein tieferes Verständnis der Mechanismen, die die Vielfalt und Spezialisierung dieser Virenfamilie vorantreiben \autocite{mifsudMappingGlycoproteinStructure2024}.
+
