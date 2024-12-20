@@ -103,6 +103,19 @@ Flaviviridae evolutionary history"}
   \def\listingautorefname{Listing}
 }
 
+% Format page foot and header
+\usepackage{scrlayer-scrpage}
+\clearscrheadings
+\clearscrheadfoot
+\automark[section]{chapter}
+\ohead{\pagemark}
+\ihead{\headmark}
+\pagestyle{scrheadings}
+
+% Ensure page numbers on every page
+\clearpairofpagestyles
+\ofoot[\pagemark]{\pagemark}
+
 % DO NOT LOAD ANY OF YOUR PACKAGES BEYOND THIS PACKAGE
 
 \makeatletter
